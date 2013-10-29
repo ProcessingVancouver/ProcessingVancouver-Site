@@ -249,8 +249,9 @@ void findDate() {
 void mousePressed() {
   
   if(drawMode == 1) {
-    background(0);
-    drawMode = 2; 
+    link("http://www.processingvancouver.ca/blog"); 
+    //background(0);
+    //drawMode = 2; 
   }
   
   else if(drawMode == 2) {
